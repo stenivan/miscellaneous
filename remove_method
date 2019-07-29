@@ -1,0 +1,9 @@
+#removing an element from a list
+data = [ 'alpha', 'beta', 'gamma', 'beta', 'delta'] #beta happens twice
+data.remove('beta')
+print(data)
+
+#removing all "beta"s
+data = ['alpha ', 'beta', 'gamma', 'beta', 'delta']
+data = [x for x in data if x != 'beta']
+print(data)
